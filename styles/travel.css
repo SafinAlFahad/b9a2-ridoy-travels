@@ -292,6 +292,167 @@ nav li a{
     
 }
 
+/* sixth part: */
+.sixth-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.news-container{
+    
+    margin-left: 80px;
+    height: 60%;
+
+}
+.newsletter{
+    display: block;
+    border: 1px solid gray;
+    padding-bottom: 30px;
+   
+    
+}
+.newsletter h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+.newsletter p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+    padding-left: 40px;
+    padding-bottom: 24px;
+    
+}
+.newsletter hr{
+    width: 393px;
+    height: 1px;
+    /* padding-left: 90px;
+    padding-right: 41px; */
+}
+.newsletter input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 24px;
+    margin-right: 40px;
+}
+.newsletter button{
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+    width: 420px;
+    height: 52px;
+}
+.sixth-img-container{
+    
+}
+.div-container{
+  
+    background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    padding-top: 80px;
+    /* background: aqua; */
+
+}
+.rotational-div{
+   
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #FF5400;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(340px) translateY(232px) rotate(-19.628deg) ;
+}
+.rotational-div p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 25%;
+
+}
+.rotational-div h2{
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 15%;
+
+}
+
+/* footer styles: */
+.footer-container{
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-top: 50px;
+    height: 502px;
+}
+.footer-first-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 110px;
+}
+
+.footer-first-part h1{
+    font-size: 2rem;
+    font-weight: 800; 
+}
+.footer-para{
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.middle-footer{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+    
+    /* width: 769px; */
+    /* justify-content: center;
+    text-align: center;
+    margin-left: 25%; */
+}
+.footer-image{
+    
+    display: flex;
+    justify-content: center;
+}
+.footer-img-container{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    width: 200px;
+    height: 25px;
+    margin-top: 32px;
+    margin-bottom: 32px; 
+    /* margin-left: 43%; */
+}
+.footer-container hr{
+    margin-left: 22%;
+    margin-right: 22%;
+    height: 1px;
+    margin-bottom: 32px;
+}
+
+.last-line{
+    margin-bottom: 110px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #131318;
+}
+
 
 
 
@@ -308,7 +469,7 @@ nav li a{
     .second-container,
     .row1, .row2, .row3,
     .box-container, .price-container,
-    .fifth-container{
+    .fifth-container, .sixth-container{
         flex-direction: column;
     }
     .first-ul{
@@ -426,6 +587,48 @@ nav li a{
         margin-left: 10px;
         
     }
+    .sixth-container{
+        margin-top: 30px;
+        padding-right: 400px;
+    }
+    .news-container{
+        margin-left: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .newsletter{
+        width: 460px;
+    }
+    .div-container{
+        width: 460px;
+        margin-left: 10px;
+        height: 300px;
+    }
+    .rotational-div{
+        width: 162px;
+        height: 60px;
+        transform: translateX(295px) translateY(205px) rotate(-19.628deg) ;
+    }
+    .rotational-div p{
+        font-size: 0.75rem;
+        font-weight: 400;
+        padding-left: 25%;
+    
+    }
+    .rotational-div h2{
+        font-size: 1rem;
+        font-weight: 800;
+        padding-left: 15%;
+    
+    }
+    .footer-container{
+        width: 460px;
+        margin-left: 10px;
+        justify-content: centers;
+        height: 650px;
+
+    }
+    
     
    
     
